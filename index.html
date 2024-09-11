@@ -1,16 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Document</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- DM Sans Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
 
-  <script defer src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script defer src="./js/bootstrap.min.js"></script>
 </head>
-<body>
-  
+
+<body class="dm-sans">
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light mt-4">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="Site Logo" title="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link mx-3" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#">Tech Stack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-3" href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="social-links nav-item">
+            <a href="#" class="mx-2"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="mx-2"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="mx-2"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
 </body>
+
 </html>
