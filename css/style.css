@@ -5,17 +5,17 @@
 }
 
 .dm-sans {
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-optical-sizing: auto;
+    font-family: "DM Sans", sans-serif;
 }
 
 .poppins-bold {
-    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+    font-family: "Poppins", sans-serif;
+}
 
 .navbar-collapse li a{
     font-size: 20px;
@@ -24,7 +24,7 @@
 
 .navbar .social-links i {
     font-size: 20px;
-    color:#666666;;
+    color:#666666;
 }
 
 .main .hero {
@@ -34,8 +34,8 @@
 
 .main .hero .hero-text {
     font-size: 58px;
-    line-height: 70px;
     font-weight: 700;
+    line-height: 70px;
 }
 
 .main .hero .hero-img {
@@ -44,21 +44,19 @@
 
 .main .hero .hero-text span {
     display: block;
-    background: linear-gradient(to right, #13B0F5, #E70FAA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #13B0F5, #E70FAA);
 }
 
 
-/* media queries */
-
+/* Media Queries */
 
 @media (max-width: 1600px) {
     .container {
         max-width: 1200px;
     }
 }
-
 
 @media (max-width: 1024px) {
 
@@ -68,12 +66,12 @@
     }
 }
 
-
 @media (max-width: 767px) {
     .main .hero {
         margin: 70px 0;
         text-align: center;
     }
+
     .main .hero .hero-img {
         width: 50%;
     }
