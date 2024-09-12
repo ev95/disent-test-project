@@ -1,152 +1,231 @@
-
 :root {
-    --primary-color: #42446E;
-    --secondary-color:#666666;
+  --primary-color: #42446e;
+  --secondary-color: #666666;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 img {
-    width: 100%;
+  width: 100%;
 }
 
 .dm-sans {
-    font-weight: 400;
-    font-style: normal;
-    font-optical-sizing: auto;
-    font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-family: "DM Sans", sans-serif;
 }
 
 .poppins-bold {
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
 /* Header styles */
 .navbar-collapse li a {
-    font-size: 20px;
-    color: var(--secondary-color)
+  font-size: 20px;
+  color: var(--secondary-color);
 }
 
 .navbar .social-links i {
-    font-size: 20px;
-    color: var(--secondary-color)
+  font-size: 20px;
+  color: var(--secondary-color);
 }
 
 /* Hero Styles */
 .main .hero {
-    margin: 200px 0;
+  margin: 200px 0;
 }
 
 .main .hero .hero-text {
-    font-size: 58px;
-    color: var(--primary-color);
-    font-weight: 700;
-    line-height: 70px;
+  font-size: 58px;
+  color: var(--primary-color);
+  font-weight: 700;
+  line-height: 70px;
 }
 
 .main .hero .hero-img {
-   width: 100%;
+  width: 100%;
 }
 
 .main .hero .hero-text span {
-    display: block;
-    background: linear-gradient(to right, #13B0F5, #E70FAA);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  display: block;
+  background: linear-gradient(to right, #13b0f5, #e70faa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
-/* Tech Stack styles */
-
-.tech-stack h2 {
-    font-size: 48px;
-    margin-bottom: 30px;
-    color: var(--primary-color);
+/* Section styles */
+section {
+  margin-bottom: 180px;
 }
 
-.tech-stack p {
-    font-size: 23px;
-    margin-bottom: 100px;
-    color: var(--secondary-color);
+section .section-title {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: var(--primary-color);
+}
+
+section .section-text {
+  font-size: 23px;
+  margin-bottom: 100px;
+  color: var(--secondary-color);
+}
+
+.card .wrapper {
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+
+.projects .card-footer {
+  border-radius: 0 0 20px;
+}
+
+.projects .card {
+  background: transparent;
+  margin-bottom: 50px;
+}
+
+.projects .card .card-title {
+  font-size: 28px;
+  color: #000000;
+}
+
+.projects .card .card-text {
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--secondary-color);
+}
+
+.projects .card .card-info {
+  font-size: 14px;
+  color: #000000;
+}
+
+.projects .card .card-footer {
+  background: transparent;
+}
+
+.projects .card .card-footer .card-link {
+  color: #000000;
+  font-size: 16px;
+}
+
+.projects .card .card-footer .card-link i {
+  margin-right: 10px;
 }
 
 /* Media Queries */
 @media (max-width: 1600px) {
-    .container {
-        max-width: 1200px;
-    }
+  .container {
+    max-width: 1200px;
+  }
 }
 
 @media (max-width: 1024px) {
+  .main .hero .hero-text {
+    font-size: 48px;
+    line-height: 60px;
+  }
 
-    .main .hero .hero-text {
-        font-size: 48px;
-        line-height: 60px;
-    }
+  .main .hero {
+    margin: 100px 0;
+  }
 
-    .main .hero {
-        margin: 100px 0;
-    }
+  section .section-title {
+    margin-bottom: 20px;
+  }
 
-    .tech-stack h2 {
-        margin-bottom: 20px;
-    }
+  section .section-text {
+    margin-bottom: 50px;
+  }
 
-    .tech-stack p {
-        margin-bottom: 50px;
-    }
+  section {
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 767px) {
-    .main .hero {
-        margin: 70px 0;
-        text-align: center;
-    }
+  .main .hero {
+    margin: 70px 0;
+    text-align: center;
+  }
 
-    .main .hero .hero-img {
-        width: 50%;
-    }
+  .main .hero .hero-img {
+    width: 50%;
+  }
 
-    .main .hero .hero-text {
-        font-size: 42px;
-        line-height: 52px;
-        padding-bottom: 20px;
-    }
-   
+  .main .hero .hero-text {
+    font-size: 42px;
+    line-height: 52px;
+    padding-bottom: 20px;
+  }
+
+  .projects .card .card-title {
+    font-size: 26px;
+  }
+
+  .card .wrapper {
+    -webkit-box-shadow: 2px 2px 50px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 2px 2px 50px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 50px 0px rgba(0, 0, 0, 0.2);
+  }
 }
 
-@media (max-width: 480px) { 
-    .main .hero {
-        margin: 50px 0;
-    }
+@media (max-width: 480px) {
+  .main .hero {
+    margin: 50px 0;
+  }
 
-    .main .hero .hero-img {
-        width: 60%;
-    }
+  .main .hero .hero-img {
+    width: 60%;
+  }
 
-    .main .hero .hero-text {
-        font-size: 30px;
-        line-height: 40px;
-    }
+  .main .hero .hero-text {
+    font-size: 30px;
+    line-height: 40px;
+  }
 
-    .tech-stack h2 {
-        font-size: 28px;
-        margin-bottom: 10px;
-    }
+  section .section-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
 
-    .tech-stack p {
-        font-size: 18px;
-        margin-bottom: 30px;
-    }
+  section .section-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .projects .card .card-title {
+    font-size: 24px;
+  }
+
+  .projects .card .card-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
