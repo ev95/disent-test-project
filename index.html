@@ -25,10 +25,12 @@
   <script defer src="./js/bootstrap.min.js"></script>
 </head>
 
-<body class="dm-sans">
-  <div class="container">
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light mt-4">
+<body>
+
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
+      <div class="container">
         <a class="navbar-brand" href="#">
           <img src="./images/logo.png" alt="Site Logo" title="logo">
         </a>
@@ -37,7 +39,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse dm-sans text-center" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link mx-3" href="#">Home</a>
@@ -61,193 +63,241 @@
             <a href="#" class="mx-2"><i class="fa-brands fa-linkedin"></i></a>
           </div>
         </div>
-      </nav>
-    </header>
-    <div class="main container">
+      </div>
+    </nav>
 
-      <section class="hero">
-        <div class="row">
-          <div class="col-md-8">
-            <h1 class="hero-text poppins-bold"> Hi 👋, <br />
-              My name is
-              <span>Pavan MG</span>
-              I build things for web
-            </h1>
-          </div>
-          <div class="col-md-4">
-            <img class="hero-img" src="./images/hero_img.png" alt="Hero Image" title="Pavan MG">
+  </header>
+  <div class="main container">
+
+    <section class="hero">
+      <div class="row">
+        <div class="col-md-8">
+          <h1 class="hero-text poppins-bold"> Hi 👋, <br />
+            My name is
+            <span>Pavan MG</span>
+            I build things for web
+          </h1>
+        </div>
+        <div class="col-md-4">
+          <img class="hero-img" src="./images/hero_img.png" alt="Hero Image" title="Pavan MG">
+        </div>
+      </div>
+    </section>
+
+    <section class="tech-stack">
+      <h2 class="poppins-bold text-center section-title">My Tech Stack</h2>
+      <p class="poppins-regular text-center section-text"> Technologies I’ve been working with recently</p>
+      <div class="row">
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_html.svg" alt="html" title="html">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_css.svg" alt="css" title="css">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_js.svg" alt="js" title="js">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_react.svg" alt="react" title="teact">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_vector.png" alt="vector" title="vector">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_bootstrap.svg" alt="bootstrap" title="bootstrap">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_tailwind.svg" alt="tailwind" title="tailwind">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_sass.svg" alt="sass" title="sass">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_git.svg" alt="git" title="git">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_greensock.svg" alt="greensock" title="greensock">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_vscode.svg" alt="vscode" title="vscode">
+        </div>
+        <div class="col-3 col-sm-2 my-4">
+          <img src="./images/logos_github.svg" alt="github" title="github">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2 class="poppins-bold text-center section-title">Projects</h2>
+      <p class="poppins-regular text-center section-text"> Things I’ve built so far </p>
+      <div class="row">
+
+        <div class="card col-12 col-sm-6 col-lg-4 border-0">
+          <div class="wrapper">
+            <img class="card-img-top" src="./images/card_image_1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
+              <p class="card-text poppins-light">This is sample project description random things are here in
+                description This is
+                sample project lorem ipsum generator for dummy content</p>
+              <p class="card-info poppins-light">
+                <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
+              </p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
+              <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
+              <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
+            </div>
           </div>
         </div>
-      </section>
 
-      <section class="tech-stack">
-        <h2 class="poppins-bold text-center section-title">My Tech Stack</h2>
-        <p class="poppins-regular text-center section-text"> Technologies I’ve been working with recently</p>
-        <div class="row">
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_html.svg" alt="html" title="html">
+        <div class="card col-12 col-sm-6 col-lg-4 border-0">
+          <div class="wrapper">
+            <img class="card-img-top" src="./images/card_image_2.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
+              <p class="card-text poppins-light">This is sample project description random things are here in
+                description This is
+                sample project lorem ipsum generator for dummy content</p>
+              <p class="card-info poppins-light">
+                <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
+              </p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
+              <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
+              <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
+            </div>
           </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_css.svg" alt="css" title="css">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_js.svg" alt="js" title="js">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_react.svg" alt="react" title="teact">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_vector.png" alt="vector" title="vector">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_bootstrap.svg" alt="bootstrap" title="bootstrap">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_tailwind.svg" alt="tailwind" title="tailwind">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_sass.svg" alt="sass" title="sass">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_git.svg" alt="git" title="git">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_greensock.svg" alt="greensock" title="greensock">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_vscode.svg" alt="vscode" title="vscode">
-          </div>
-          <div class="col-3 col-sm-2 my-4">
-            <img src="./images/logos_github.svg" alt="github" title="github">
-          </div>
-
         </div>
-      </section>
 
-      <section class="projects">
-        <h2 class="poppins-bold text-center section-title">Projects</h2>
-        <p class="poppins-regular text-center section-text"> Things I’ve built so far </p>
-        <div class="row">
-
-          <div class="card col-12 col-sm-6 col-lg-4 border-0">
-            <div class="wrapper">
-              <img class="card-img-top" src="./images/card_image_1.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
-                <p class="card-text poppins-light">This is sample project description random things are here in
-                  description This is
-                  sample project lorem ipsum generator for dummy content</p>
-                <p class="card-info poppins-light">
-                  <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
-                </p>
-              </div>
-              <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
-                <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
-                <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
-              </div>
+        <div class="card col-12 col-sm-6 col-lg-4 border-0">
+          <div class="wrapper">
+            <img class="card-img-top" src="./images/card_image_3.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
+              <p class="card-text poppins-light">This is sample project description random things are here in
+                description This is
+                sample project lorem ipsum generator for dummy content</p>
+              <p class="card-info poppins-light">
+                <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
+              </p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
+              <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
+              <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
             </div>
           </div>
-
-          <div class="card col-12 col-sm-6 col-lg-4 border-0">
-            <div class="wrapper">
-              <img class="card-img-top" src="./images/card_image_2.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
-                <p class="card-text poppins-light">This is sample project description random things are here in
-                  description This is
-                  sample project lorem ipsum generator for dummy content</p>
-                <p class="card-info poppins-light">
-                  <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
-                </p>
-              </div>
-              <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
-                <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
-                <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card col-12 col-sm-6 col-lg-4 border-0">
-            <div class="wrapper">
-              <img class="card-img-top" src="./images/card_image_3.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
-                <p class="card-text poppins-light">This is sample project description random things are here in
-                  description This is
-                  sample project lorem ipsum generator for dummy content</p>
-                <p class="card-info poppins-light">
-                  <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
-                </p>
-              </div>
-              <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
-                <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
-                <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card col-12 col-sm-6 col-lg-4 border-0">
-            <div class="wrapper">
-              <img class="card-img-top" src="./images/card_image_4.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
-                <p class="card-text poppins-light">This is sample project description random things are here in
-                  description This is
-                  sample project lorem ipsum generator for dummy content</p>
-                <p class="card-info poppins-light">
-                  <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
-                </p>
-              </div>
-              <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
-                <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
-                <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card col-12 col-sm-6 col-lg-4 border-0">
-            <div class="wrapper">
-              <img class="card-img-top" src="./images/card_image_5.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
-                <p class="card-text poppins-light">This is sample project description random things are here in
-                  description This is
-                  sample project lorem ipsum generator for dummy content</p>
-                <p class="card-info poppins-light">
-                  <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
-                </p>
-              </div>
-              <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
-                <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
-                <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card col-12 col-sm-6 col-lg-4 border-0">
-            <div class="wrapper">
-              <img class="card-img-top" src="./images/card_image_6.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
-                <p class="card-text poppins-light">This is sample project description random things are here in
-                  description This is
-                  sample project lorem ipsum generator for dummy content</p>
-                <p class="card-info poppins-light">
-                  <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
-                </p>
-              </div>
-              <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
-                <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
-                <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
-              </div>
-            </div>
-          </div>
-
         </div>
-      </section>
-    </div>
+
+        <div class="card col-12 col-sm-6 col-lg-4 border-0">
+          <div class="wrapper">
+            <img class="card-img-top" src="./images/card_image_4.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
+              <p class="card-text poppins-light">This is sample project description random things are here in
+                description This is
+                sample project lorem ipsum generator for dummy content</p>
+              <p class="card-info poppins-light">
+                <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
+              </p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
+              <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
+              <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-12 col-sm-6 col-lg-4 border-0">
+          <div class="wrapper">
+            <img class="card-img-top" src="./images/card_image_5.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
+              <p class="card-text poppins-light">This is sample project description random things are here in
+                description This is
+                sample project lorem ipsum generator for dummy content</p>
+              <p class="card-info poppins-light">
+                <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
+              </p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
+              <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
+              <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-12 col-sm-6 col-lg-4 border-0">
+          <div class="wrapper">
+            <img class="card-img-top" src="./images/card_image_6.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center poppins-medium">Project Tile goes here</h5>
+              <p class="card-text poppins-light">This is sample project description random things are here in
+                description This is
+                sample project lorem ipsum generator for dummy content</p>
+              <p class="card-info poppins-light">
+                <span class="poppins-regular">Tech stack :</span> HTML , JavaScript, SASS, React
+              </p>
+            </div>
+            <div class="card-footer border-0 d-flex justify-content-between poppins-regular">
+              <a href="#" class="card-link"> <i class="fa-solid fa-link"></i> Live Preview</a>
+              <a href="#" class="card-link"><i class="fa-brands fa-github"></i>View Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
   </div>
+  <footer>
+    <div class="container">
+      <div class="row info">
+        <div class="col-12 col-md-2">
+          <img class="footer-logo" src="./images/footer_logo.svg" alt="footer logo" title="Footer logo">
+        </div>
+        <div
+          class="col-12 col-md-10 d-flex justify-content-center justify-content-md-end flex-md-row flex-column align-items-center">
+          <p class="contacts m-0 dm-sans">
+            <a href="tel:+91 12345 09876">+91 12345 09876</a>
+            <a href="mailto:info@example.com">info@example.com</a>
+          </p>
+          <div class="social-links">
+            <a href="#" class="mx-2"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="mx-2"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="mx-2"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="footer-menu d-flex justify-content-md-between justify-content-center flex-md-row flex-column align-items-center">
+        <ul class="nav dm-sans align-items-center flex-md-row flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Technologies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <p class="footer-text poppins-regular mb-0">Designed and built by <span class="first-gradient">Pavan MG</span>
+          with <span class="second-gradient">Love</span> &
+          <span class="third-gradient">Coffee</span>
+        </p>
+
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
